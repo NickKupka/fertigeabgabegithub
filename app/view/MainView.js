@@ -45,6 +45,7 @@ Ext.define('FertigeAbgabe.view.MainView', {
                     {
                         xtype: 'container',
                         title: 'Carousel',
+                        iconCls: 'bookmarks',
                         layout: 'fit',
                         items: [
                             {
@@ -94,6 +95,7 @@ Ext.define('FertigeAbgabe.view.MainView', {
                     {
                         xtype: 'list',
                         title: 'Liste',
+                        iconCls: 'compose',
                         items: [
                             {
                                 xtype: 'textfield',
@@ -115,11 +117,12 @@ Ext.define('FertigeAbgabe.view.MainView', {
                     {
                         xtype: 'map',
                         title: 'Maps',
+                        iconCls: 'locate',
                         useCurrentLocation: true
                     }
                 ],
                 tabBar: {
-                    docked: 'top',
+                    docked: 'bottom',
                     layout: {
                         type: 'hbox',
                         pack: 'center'
