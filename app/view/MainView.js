@@ -94,23 +94,52 @@ Ext.define('FertigeAbgabe.view.MainView', {
                     },
                     {
                         xtype: 'list',
-                        title: 'Liste',
-                        iconCls: 'compose',
+                        title: 'ArsNova',
+                        iconCls: 'info',
+                        html: '',
                         items: [
                             {
                                 xtype: 'textfield',
                                 docked: 'top',
-                                label: 'Abgabe zu Web Engineering II'
+                                left: '',
+                                label: '',
+                                placeHolder: 'ARSNOVA STATISTICS',
+                                readOnly: true
                             },
                             {
                                 xtype: 'textfield',
                                 docked: 'top',
-                                label: 'Nick Kupka'
+                                label: 'Answers',
+                                placeHolder: '51683',
+                                readOnly: true
                             },
                             {
                                 xtype: 'textfield',
                                 docked: 'top',
-                                label: 'Field'
+                                label: 'Questions',
+                                placeHolder: '5576',
+                                readOnly: true
+                            },
+                            {
+                                xtype: 'textfield',
+                                docked: 'top',
+                                label: 'OpenSessions',
+                                placeHolder: '2489',
+                                readOnly: true
+                            },
+                            {
+                                xtype: 'textfield',
+                                docked: 'top',
+                                label: 'Closed Sessions',
+                                placeHolder: '124',
+                                readOnly: true
+                            },
+                            {
+                                xtype: 'textfield',
+                                docked: 'top',
+                                label: 'Active Users',
+                                placeHolder: '14',
+                                readOnly: true
                             }
                         ]
                     },
