@@ -1,0 +1,48 @@
+{
+    "name": "FertigeAbgabe",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.2.67",
+            "frameworkVersion": "2.3.1.410"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone 5",
+                "builtIn": true,
+                "height": 568,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "http://localhost/workspaceSencha/FertigeAbgabe",
+        "exportPath": "C:/xampp/htdocs/workspaceSencha/HIER WIRDS ENTPACKT",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "3.0.3",
+    "xdsBuild": 1382,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "touch23",
+    "viewOrderMap": {
+        "view": [
+            "ee475272-a0aa-4603-9d9d-0110f2e7b29f",
+            "81d345c3-d91f-4fbc-b42d-0779079a1547"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "70760bbc-9363-4de6-bb8d-935eb11d0b3e"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
